@@ -1,0 +1,49 @@
+<svg viewBox="0 0 980 220" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="220" fill="#ffffff"/>
+
+  <!-- Step 1: Paste JD -->
+  <rect x="20" y="70" width="170" height="80" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="105" y="103" text-anchor="middle" font-size="13" font-weight="600" fill="#312e81">Job description</text>
+  <text x="105" y="122" text-anchor="middle" font-size="11" fill="#4338ca">pasted or sample JD</text>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="110" x2="228" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="228,104 240,110 228,116" fill="#94a3b8"/>
+
+  <!-- Step 2: Parse -->
+  <rect x="242" y="60" width="180" height="100" rx="10" fill="#ecfeff" stroke="#06b6d4" stroke-width="1.5"/>
+  <text x="332" y="93" text-anchor="middle" font-size="13" font-weight="600" fill="#164e63">Parse</text>
+  <text x="332" y="112" text-anchor="middle" font-size="11" fill="#155e75">title, company, skills,</text>
+  <text x="332" y="127" text-anchor="middle" font-size="11" fill="#155e75">seniority, comp, location</text>
+  <text x="332" y="145" text-anchor="middle" font-size="10" fill="#0891b2">agents/parse.py</text>
+
+  <!-- Arrow 2 -->
+  <line x1="422" y1="110" x2="460" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="460,104 472,110 460,116" fill="#94a3b8"/>
+
+  <!-- Step 3: Match -->
+  <rect x="474" y="60" width="180" height="100" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="564" y="93" text-anchor="middle" font-size="13" font-weight="600" fill="#14532d">Match &amp; score</text>
+  <text x="564" y="112" text-anchor="middle" font-size="11" fill="#166534">fit score 0-100,</text>
+  <text x="564" y="127" text-anchor="middle" font-size="11" fill="#166534">gaps &amp; dealbreakers</text>
+  <text x="564" y="145" text-anchor="middle" font-size="10" fill="#16a34a">agents/match.py</text>
+
+  <!-- Arrow 3 -->
+  <line x1="654" y1="110" x2="692" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="692,104 704,110 692,116" fill="#94a3b8"/>
+
+  <!-- Step 4: Tailor -->
+  <rect x="706" y="60" width="180" height="100" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="1.5"/>
+  <text x="796" y="93" text-anchor="middle" font-size="13" font-weight="600" fill="#7c2d12">Tailor</text>
+  <text x="796" y="112" text-anchor="middle" font-size="11" fill="#9a3412">re-rank real bullets,</text>
+  <text x="796" y="127" text-anchor="middle" font-size="11" fill="#9a3412">draft outreach note</text>
+  <text x="796" y="145" text-anchor="middle" font-size="10" fill="#ea580c">agents/tailor.py</text>
+
+  <!-- Arrow down to tracker -->
+  <line x1="796" y1="160" x2="796" y2="182" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="790,182 796,194 802,182" fill="#94a3b8"/>
+
+  <!-- Tracker -->
+  <rect x="616" y="196" width="360" height="1" fill="none"/>
+  <text x="796" y="212" text-anchor="middle" font-size="11" fill="#64748b">save to SQLite tracker (db.py) — saved → applied → interview → offer/rejected</text>
+</svg>
