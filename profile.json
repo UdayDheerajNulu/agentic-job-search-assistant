@@ -1,0 +1,77 @@
+{
+  "name": "Alex Rivera",
+  "title": "Software Engineer - ML / AI / GenAI",
+  "location": "Remote",
+  "email": "alex.rivera@example.com",
+  "phone": "+1 555 0100",
+  "links": {
+    "linkedin": "https://example.com/in/alex-rivera",
+    "github": "https://example.com/alex-rivera"
+  },
+  "summary": "AI/ML engineer with 3+ years building and deploying NLP and LLM-powered systems in a regulated enterprise setting. Built an independent agentic GenAI platform spanning multiple database engines.",
+  "years_experience": 3,
+  "seniority": "mid",
+  "skills": [
+    "python", "sql", "c", "java", "powershell", "nlp", "scikit-learn", "tfidf",
+    "shap", "linearsvc", "gridsearchcv", "machine learning", "deep learning",
+    "llm", "llms", "agentic ai", "agents", "langchain", "langgraph",
+    "prompt engineering", "rag", "embeddings", "vector database", "faiss",
+    "fastapi", "sqlalchemy", "streamlit", "react", "git", "ci/cd", "jira",
+    "sonarqube", "autosys", "mlops", "gemini"
+  ],
+  "preferences": {
+    "target_roles": ["genai engineer", "llm engineer", "ml engineer", "applied scientist", "data scientist"],
+    "locations": ["remote", "relocate"],
+    "remote_ok": true,
+    "min_comp_lpa": 0,
+    "needs_visa_sponsorship_outside_india": false
+  },
+  "experience": [
+    {
+      "company": "Global FinTech Corp",
+      "role": "Software Engineer",
+      "dates": "2023 - Present",
+      "bullets": [
+        "Tuned LinearSVC hyperparameters via GridSearchCV, improving text classification performance across retention categories.",
+        "Designed a prompt-driven LLM approach using contextual class descriptions to assess unigrams/bigrams and refine TF-IDF feature selection.",
+        "Applied SHAP for feature attribution, giving business and audit stakeholders auditable model explanations for governance and compliance.",
+        "Built a monitoring proof-of-concept combining computer vision and LLMs to flag suspicious activity, extending the team into applied computer vision.",
+        "Maintained zero escaped defects to UAT/Prod and zero critical/high static-analysis issues; monitored 60+ scheduled jobs daily.",
+        "Independently ran a production Python version upgrade with zero-downtime deployment, coordinating with DevOps.",
+        "Submitted 3 solutions in an internal prompt-a-thon and delivered a working global-hackathon solution."
+      ]
+    },
+    {
+      "company": "Global FinTech Corp (independent prototype)",
+      "role": "Software Engineer",
+      "dates": "2024 - Present",
+      "bullets": [
+        "Prototyped an AI-powered database retention platform using a frontier LLM and SQLAlchemy across 6 database platforms, achieving 90% SQL query accuracy.",
+        "Built a scalable async pipeline with FastAPI endpoints and a Streamlit UI enabling parallel batch execution through a multi-step LLM workflow (classification, retention analysis, priority scoring, SQL generation) with audit logging.",
+        "Reduced LLM token usage by 69% via intelligent batching and cache optimization; designed a database-agnostic architecture with dialect-specific SQL generation."
+      ]
+    },
+    {
+      "company": "CloudScale Systems",
+      "role": "Software Engineering Intern",
+      "dates": "Jun 2022 - Dec 2022",
+      "bullets": [
+        "Revived and ported a legacy analysis tool to the latest Python and Django versions through targeted refactoring and version-compatibility fixes."
+      ]
+    },
+    {
+      "company": "Telecom Solutions Inc.",
+      "role": "Software Engineering Intern",
+      "dates": "Jun 2021 - Jul 2021",
+      "bullets": [
+        "Automated CLI test cases for network switches in Python, extending coverage in an internal automation framework."
+      ]
+    }
+  ],
+  "education": [
+    {"degree": "B.E. (Hons.) Computer Science", "school": "State University", "dates": "2019-2023", "detail": ""}
+  ],
+  "training": [
+    {"name": "Agentic AI (6-week intensive)", "status": "in progress", "expected": "2026"}
+  ]
+}

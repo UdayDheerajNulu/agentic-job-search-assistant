@@ -1,0 +1,16 @@
+Senior GenAI / LLM Engineer at Northstar AI (Remote, India)
+
+About the role:
+We're building production RAG and agentic systems and need an engineer who has shipped LLM features end to end.
+
+Required:
+- Strong Python
+- LangChain or LangGraph, RAG pipelines, prompt engineering
+- FastAPI, vector database (FAISS/pgvector), embeddings
+- Experience deploying LLMs in production
+
+Nice to have:
+- Kubernetes, AWS
+- MLOps and evaluation/guardrails experience
+
+Compensation: 30-45 LPA. Visa sponsorship not required (remote, India-based).

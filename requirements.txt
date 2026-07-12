@@ -1,0 +1,15 @@
+# The core MVP (parse/match/tailor/tracker) runs on the Python standard library.
+# These are only needed for the API + UI:
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+pydantic>=2.6
+
+# Optional - better semantic matching (auto-detected if installed):
+# sentence-transformers>=2.6
+# faiss-cpu>=1.8
+
+# Optional - LLM providers (set LLM_PROVIDER + the matching key in .env):
+# openai>=1.30
+# anthropic>=0.25
+# google-generativeai>=0.5
